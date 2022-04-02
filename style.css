@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Texts */
+
+h1 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    padding-bottom: 3px;
+    /* font-weight: 700; */
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    transition: border-bottom-color 0.2s;
+}
+a:hover {
+    border-bottom-color: transparent;
+}
+
+.text-dark {
+    color: black;
+    text-shadow: none;
+}
+.text-dark a {
+    border-bottom-color: black;
+    transition: border-bottom-color 0.2s;
+}
+.text-dark a:hover{
+    border-bottom-color: transparent;
+}
+
+/* Containers */
+
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 1.5rem;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.section-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.data-container {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* weather data */
+
+.city {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.city-data {
+    min-width: 300px;
+    max-width: 600px;
+    max-height: 4.8rem;
+    padding: 0 10px;
+}
+.city-data[contenteditable="true"] {
+    outline: none;
+}
+
+.icon-data i {
+    font-size: 5rem;
+    line-height: 7rem;
+}
+
+.temp {
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.desc-data {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+/* Misc. */
+
+.loading-text {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.error-message-heading {
+    font-size: 2rem;
+    line-height: 3rem;
+}

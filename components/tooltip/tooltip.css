@@ -1,0 +1,12 @@
+.tooltip {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(0);
+    transition: transform 0.3s, opacity 0.3s
+}
