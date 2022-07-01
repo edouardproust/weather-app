@@ -4,6 +4,8 @@ An application that allows you to get the current weather for any location.
 
 👉 [**Live demo**](http://phpstack-749317-2526881.cloudwaysapps.com/)
 
+![image](https://user-images.githubusercontent.com/45925914/176819624-22c531cb-af51-43b7-92de-e7934b254acf.png)
+
 ## Technologies
 
 The application is coded in javascript, html and css, without framework. The weather is obtained using the Openweather API. The data is retrieved asynchronously (Ajax) with the async/await syntax.
