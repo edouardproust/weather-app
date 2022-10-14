@@ -2,7 +2,7 @@
 
 An application that allows you to get the current weather for any location.
 
-👉 [**Live demo**](http://phpstack-749317-2526881.cloudwaysapps.com/)
+👉 [**Live demo**](http://phpstack-856558-2958366.cloudwaysapps.com/)
 
 ![image](https://user-images.githubusercontent.com/45925914/176819624-22c531cb-af51-43b7-92de-e7934b254acf.png)
 
